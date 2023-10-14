@@ -49,6 +49,7 @@ def download_file(owner, repo, path, filename):
 
 def main():
     parser = argparse.ArgumentParser(description='GitHub Repository File Downloader')
+    parser.add_argument('--version', action='version', version='%(prog)s 1.0.0')
     parser.add_argument('--list', action='store_true', help='List files and directories in the specified folder')
     parser.add_argument('--file', required=False, help='Name of the file to download')
     parser.add_argument('--download', action='store_true', help='Download the specified file')
