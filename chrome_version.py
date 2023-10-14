@@ -28,7 +28,6 @@ def download_file(owner, repo, path, filename):
             download_url = content['download_url']
             # Extract the filename from the path
             filename = os.path.basename(f"{path}/{filename}")
-            print(f'Downloading {filename}')
             response = requests.get(download_url, stream=True)
             if response.status_code == 200:
                 total_size = int(response.headers.get('content-length', 0))
