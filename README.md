@@ -9,7 +9,7 @@ This Python script allows you to list files and download specific chrome version
 To list all chrome versions
 
 ```shell
-python github_file_downloader.py --list
+python chrome_version.py --list
 ```
 
 ### Download a File
@@ -17,7 +17,7 @@ python github_file_downloader.py --list
 To download a specific file from the GitHub repository, use the following command, replacing `file_name` with the name of the file you want to download:
 
 ```shell
-python github_file_downloader.py --download --file file_name
+python chrome_version.py --download --file file_name
 ```
 
 ## Requirements
