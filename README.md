@@ -1,6 +1,6 @@
 # Chrome version downloader
 
-This Python script allows you to list files and download specific chrome versions from webnicer's github repo which holds all chrome versions. It only works with for linux with deb files
+This Python script allows you to list files and download specific chrome versions from webnicer's github repo which holds all chrome versions. It only works with debian based linux
 
 ## Usage
 
